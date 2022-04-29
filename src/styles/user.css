@@ -1,0 +1,128 @@
+.user-sidebar {
+  margin-top: 2rem;
+}
+
+.user-content {
+  margin-top: 2rem;
+}
+
+.sidebar-buttons {
+  border: none;
+}
+
+.sidebar-button {
+  border: none !important;
+  width: 100%;
+  text-align: start;
+  background-color: #ce0505 !important;
+  margin-bottom: 1rem !important;
+  color: #fff !important;
+  box-shadow: 1px 1px 4px 1px darkgrey;
+}
+
+/* .sidebar-button {
+color: #fff !important;
+} */
+
+.input-user-profile {
+  display: inline-block;
+  /* width: 400px; */
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: solid 1px lightblue;
+  border-radius: 0.5rem;
+}
+
+/* .edit-logo-user-profile {
+    margin: 1rem;
+    color: #0505ce;
+}
+
+.edit-logo-user-profile:hover {
+    color: #ce0505;
+    cursor: pointer;
+} */
+
+/* .update-logo-user-profile{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #ce0505;
+    display: none;
+} */
+
+/* .update-logo-user-profile:hover{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #de0505;
+    cursor: pointer;
+} */
+
+#editProfileBtn,
+#updateProfileBtn {
+  background-color: #ce0505;
+  color: #eee;
+  border: transparent;
+  border-radius: 0.2rem;
+  font-family: Poppins;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 20px;
+  box-shadow: 1px 1px 4px 1px darkgrey;
+}
+
+#editProfileBtn:hover,
+#updateProfileBtn:hover {
+  background-color: #de0505;
+  color: #fff;
+}
+
+#editProfileBtn:hover {
+  background-color: #de0505;
+  color: #fff;
+}
+
+.label-user-profile {
+  display: inline-block;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  color: #555;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.order-history-items {
+  margin-bottom: 1rem;
+  /* border: solid 1px red; */
+  padding: 1rem;
+  background-color: #eee;
+  font-family: Poppins;
+  border-radius: 1rem;
+}
+
+.order-history-items h5 {
+  color: #ce0505;
+  font-weight: 500;
+}
+
+.order-history-label {
+  color: #0505ce;
+  font-weight: 500;
+}
+
+/* .order-history-input{
+    border: solid 2px #fff;
+    border-radius: 0.2rem;
+} */
+
+.order-history-image {
+  margin-bottom: 0.5rem;
+  /* margin: 50% auto; */
+}
+
+/* .image-container{
+    height: fit-content;
+    /* margin: 50% auto; */
+/* height: fit-content; */
+/* background-color: #ce0505; */
+/* } */

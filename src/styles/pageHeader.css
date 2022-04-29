@@ -1,0 +1,443 @@
+.input-login {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: solid 1px lightblue;
+  border-radius: 0.5rem;
+}
+
+.login-email-modal-title {
+  display: inline-block;
+  color: #555;
+}
+
+.close-button {
+  display: inline-block;
+}
+
+.close-button:hover {
+  color: rgb(219, 21, 21);
+}
+
+.button-login-email {
+  float: right;
+  width: 30%;
+  padding: 0.5rem;
+  background-color: rgb(200, 227, 236);
+  border: none;
+  border-radius: 0.5rem;
+  color: hsl(229, 73%, 47%);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.button-forget-password {
+  float: left;
+  width: 60%;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.5rem;
+  color: hsl(345, 83%, 43%);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.button-reset-password {
+  float: right;
+  width: 150px;
+  padding: 0.5rem;
+  background-color: #555;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.login-gmail {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #225599 !important;
+  color: #fff !important;
+}
+
+.login-or {
+  text-align: center;
+  font-family: Poppins;
+  color: #888;
+  margin: 0.5rem;
+}
+
+.logout-button {
+  color: #cc2367;
+  width: 100%;
+  font-family: Poppins;
+  font-size: 16px;
+  border: solid 2px #ffffff;
+  border-radius: 5px;
+  background-color: #fff;
+  /* margin: 1rem; */
+}
+
+.logged-user-name {
+  color: #2323cd;
+  font-family: Poppins;
+  font-size: 16px;
+  border: solid 2px transparent;
+  border-radius: 5px;
+  background-color: transparent;
+  width: fit-content;
+  display: inline-block;
+  /* align-items: center; */
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.user-name-down-arrow {
+  color: #2323cd;
+  /* font-family: Poppins; */
+  font-size: 16px;
+  border: solid 2px transparent;
+  border-radius: 5px;
+  background-color: transparent;
+  width: fit-content;
+  display: inline-block;
+  /* align-items: center; */
+  padding-top: 0.5rem;
+  /* padding-right: 1.5rem; */
+}
+
+#logged-user-dropdown {
+  /* margin-right: 1rem; */
+  width: 100%;
+  background-color: #fff;
+  border: transparent;
+  border-radius: 0.5rem;
+}
+
+.logged-user-dropdown-home {
+  margin-right: 1rem;
+}
+
+.logged-user-dropdown-menu {
+  width: 100%;
+  background-color: #fff;
+  border: transparent;
+  color: #225599;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+.input-create-account {
+  display: inline-block;
+  /* width: 100%; */
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: solid 1px lightblue;
+  border-radius: 0.5rem;
+}
+
+.label-create-account {
+  display: inline-block;
+  padding: 0.5rem;
+  /* padding-left: 1rem; */
+  color: #555;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  /* width: fit-content; */
+}
+
+/* .input-address {
+  height: 4rem;
+} */
+
+.button-create-account {
+  float: right;
+  /* width: 200px; */
+  padding: 0.5rem;
+  background-color: #d92323;
+  border: none;
+  border-radius: 0.5rem;
+  color: hsl(0, 0%, 97%);
+  font-size: 1.2rem;
+  font-weight: 500;
+  /* margin: 1rem; */
+}
+
+.login-section-pageHeader {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  justify-content: flex-end;
+}
+
+.button-create-account:hover {
+  background-color: #c02323;
+  color: #fff;
+}
+
+.login-button-create-account-modal {
+  color: #d92323;
+}
+
+.login-button-create-account-modal:hover {
+  cursor: pointer;
+}
+
+.menu-icon {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-icon::before {
+  position: absolute;
+  content: "-";
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  transform: translateY(-5px);
+}
+
+.menu-icon::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  transform: translateY(5px);
+}
+
+.pageHeaderFilter {
+  background-color: #c02323;
+}
+
+.pageHeaderHome {
+  background-color: transparent;
+}
+
+.create-account-sm {
+  margin-left: 1rem;
+}
+
+/* Media queries -------------------------------------------------- */
+@media only screen and (max-width: 375px) {
+  .nav-item {
+    z-index: 1;
+  }
+
+  .login-section-pageHeader {
+    width: 100%;
+    left: 1% !important;
+  }
+
+  .login-button-sm {
+    width: 100% !important;
+  }
+
+  .create-account-sm {
+    width: 100% !important;
+    margin-left: 0;
+  }
+
+  .login-gmail {
+    width: 100%;
+    font-size: 14px !important;
+    margin-bottom: 0.2rem;
+    background-color: #225599 !important;
+    color: #fff !important;
+  }
+
+  .login-or {
+    text-align: center;
+    font-family: Poppins;
+    color: #888;
+    margin: 0.2rem;
+  }
+
+  .login-email-modal-title {
+    font-size: 1rem;
+    display: inline-block;
+    color: #555;
+  }
+
+  .input-login {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    /* padding: 0.5rem; */
+    border: solid 1px lightblue;
+    border-radius: 0.5rem;
+  }
+  .input-create-account {
+    display: inline-block;
+    /* width: 100%; */
+    margin-bottom: 0.3rem;
+    padding: 0.3rem;
+    border: solid 1px lightblue;
+    border-radius: 0.5rem;
+    font-size: 12px !important;
+  }
+
+  .label-create-account {
+    display: inline-block;
+    padding: 0.2rem;
+    /* padding-left: 1rem; */
+    color: #555;
+    font-family: Poppins;
+    font-size: 10px !important;
+    font-weight: 500;
+    /* width: fit-content; */
+  }
+  .create-account-modal-title {
+    font-size: 14px;
+  }
+  .button-create-account {
+    float: right;
+    /* width: 200px; */
+    padding: 0.5rem;
+    background-color: #d92323;
+    border: none;
+    border-radius: 0.5rem;
+    color: hsl(0, 0%, 97%);
+    font-size: 0.8rem !important;
+    font-weight: 500;
+    margin: 1rem;
+  }
+  .already-have-account {
+    font-size: 12px !important;
+  }
+
+  .logged-user-dropdown-home {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .nav-item {
+    z-index: 1;
+  }
+
+  .login-section-pageHeader {
+    width: 100%;
+    left: 1% !important;
+  }
+
+  .login-button-sm {
+    width: 100% !important;
+  }
+
+  .create-account-sm {
+    width: 100% !important;
+    margin-left: 0;
+  }
+
+  .login-gmail {
+    width: 100%;
+    font-size: 14px !important;
+    margin-bottom: 0.2rem;
+    background-color: #225599 !important;
+    color: #fff !important;
+  }
+
+  .login-or {
+    text-align: center;
+    font-family: Poppins;
+    color: #888;
+    margin: 0.2rem;
+  }
+
+  .login-email-modal-title {
+    font-size: 1rem;
+    display: inline-block;
+    color: #555;
+  }
+
+  .input-login {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    /* padding: 0.5rem; */
+    border: solid 1px lightblue;
+    border-radius: 0.5rem;
+  }
+  .input-create-account {
+    display: inline-block;
+    /* width: 100%; */
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: solid 1px lightblue;
+    border-radius: 0.5rem;
+    font-size: 14px;
+  }
+
+  .label-create-account {
+    display: inline-block;
+    padding: 0.5rem;
+    /* padding-left: 1rem; */
+    color: #555;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    /* width: fit-content; */
+  }
+  .create-account-modal-title {
+    font-size: 16px;
+  }
+  .button-create-account {
+    float: right;
+    /* width: 200px; */
+    padding: 0.5rem;
+    background-color: #d92323;
+    border: none;
+    border-radius: 0.5rem;
+    color: hsl(0, 0%, 97%);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem;
+  }
+  .already-have-account {
+    font-size: 16px;
+  }
+  .logged-user-dropdown-home {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-item {
+    z-index: 1;
+  }
+
+  .login-section-pageHeader {
+    position: sticky;
+    left: 60%;
+    top: 13%;
+    width: 96%;
+    z-index: 1;
+  }
+
+  .login-button-sm {
+    width: 100%;
+  }
+
+  .create-account-sm {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .logged-user-dropdown-home {
+    margin-right: 0;
+  }
+}

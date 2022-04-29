@@ -1,0 +1,748 @@
+.detailsImage {
+  /* width: 100%;
+  height: 100%; */
+  border-radius: 1rem;
+}
+
+.galleryButton {
+  position: absolute;
+  top: 85%;
+  left: 75%;
+}
+
+.galleryCarouselImage img {
+  height: 40vh;
+  width: 100%;
+}
+
+.restaurant-name-line {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.restaurant-name-details {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #192f60;
+}
+
+#overview-tab,
+#contact-tab {
+  color: #192f60;
+  font-weight: 500;
+}
+
+#overview-tab.active,
+#contact-tab.active {
+  border: transparent !important;
+  border-bottom: solid 2px red !important;
+}
+
+.placeOnlineOrder {
+  /* position: relative;
+    left: 56%;
+    top: 50%; */
+  border: none;
+  background-color: #ce0505;
+  border-radius: 0.5rem;
+  padding: 10px 25px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  float: right;
+}
+
+#restaurantDetails {
+  margin-bottom: 1rem;
+  border-bottom: solid 1px #dedede;
+}
+
+#restaurantDetails .nav-item {
+  z-index: 0;
+}
+
+.overview-tab-heading {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #192f60;
+  padding-bottom: 1rem;
+}
+
+.overview-sub-heading,
+.contact-sub-heading {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #192f60;
+}
+
+.overview-contents {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #192f60;
+  padding-bottom: 1rem;
+}
+
+.contact-contents {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #192f60;
+  padding-bottom: 1rem;
+}
+
+#phone-number {
+  color: #d11414;
+}
+
+.item-modal-container {
+  max-height: 80vh;
+}
+
+.modal-card-item {
+  border: none;
+  background-color: #efefef;
+  border-radius: 10px;
+}
+
+.close-button {
+  float: right;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.modal-restaurant-name {
+  font-family: Poppins;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.modal-card-item-name,
+.modal-card-item-price {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #192f60;
+  line-height: 1.5rem;
+  padding-left: 10px;
+}
+
+.modal-card-item-desc {
+  font-size: 0.85rem;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+  padding-left: 10px;
+}
+
+.modal-card-item-image {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: 80px;
+}
+
+/* .modal-item-checkout {
+  position: fixed;
+  left: 5%;
+  padding-bottom: 20px;
+} */
+
+.add-button {
+  position: relative;
+  width: 100%;
+  background-color: #256d13;
+  border: none;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: #efefef;
+  margin: auto;
+  height: 2rem;
+  font-weight: 500;
+}
+
+.item-img-section {
+  margin: auto;
+}
+.add-number {
+  border: solid 1px #192f60;
+  /* width: fit-content; */
+  border-radius: 5px;
+  background-color: #fff;
+}
+.minus-button {
+  width: 25%;
+  border: none;
+  background-color: #3d51aa;
+  border-radius: 2px;
+  font-weight: 600;
+  color: #fff;
+}
+.item-qty {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  color: #192f60;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.plus-button {
+  width: 25%;
+  border: none;
+  background-color: #3d51aa;
+  border-radius: 2px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.input-payment-form {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: solid 1px lightblue;
+  border-radius: 0.5rem;
+}
+
+.label-payment-form {
+  display: inline-block;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  color: #555;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button-proceed-checkout {
+  float: right;
+  width: fit-content;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  /* margin: 1rem; */
+}
+
+.payment-alert {
+  /* width: 500px; */
+  text-align: center;
+  margin: auto;
+}
+
+.value {
+  color: darkgreen;
+  font-weight: 600;
+}
+
+.credentials-left {
+  text-align: right;
+}
+
+.credentials-right {
+  text-align: left;
+}
+
+.alert-title {
+  color: #273988;
+  background-color: lightgrey;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+.alert-note {
+  padding-top: 0.5rem;
+  color: red;
+}
+
+.restaurant-image-container {
+  position: relative;
+  height: 400px;
+}
+
+/* Media Queries -------------------------------------------------- */
+
+@media only screen and (max-width: 375px) {
+  .galleryButton {
+    position: absolute;
+    top: 80% !important;
+    left: 50% !important;
+    font-size: 10px;
+  }
+  .restaurant-name-details {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #192f60;
+  }
+
+  .restaurant-image-container {
+    position: relative;
+    height: 200px;
+  }
+
+  .placeOnlineOrder {
+    border: none;
+    background-color: #ce0505;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    float: right;
+  }
+
+  .nav-tabs {
+    font-size: 10px;
+  }
+
+  .overview-tab-heading {
+    font-size: 12px;
+  }
+  .overview-sub-heading,
+  .contact-sub-heading {
+    font-size: 12px;
+  }
+  .overview-contents,
+  .contact-contents {
+    font-size: 10px;
+  }
+  .modal-restaurant-name {
+    font-size: 14px;
+    padding-left: 0;
+  }
+  .close-button {
+    float: right;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .modal-card-item-name,
+  .modal-card-item-price {
+    font-size: 12px;
+    font-weight: 500;
+    color: #192f60;
+    line-height: 1.5rem;
+    padding-left: 10px;
+  }
+
+  .modal-card-item-desc {
+    font-size: 8px;
+    line-height: 8px;
+  }
+
+  .modal-card-item-image {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 80px;
+  }
+
+  .add-button {
+    /* position: relative; */
+    width: 100%;
+    background-color: #256d13;
+    border: none;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: #efefef;
+    margin: auto;
+    height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .card-body {
+    display: inline-block;
+    width: 45%;
+    padding: 8px;
+  }
+
+  .item-img-section {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .alert-title {
+    color: #273988;
+    background-color: lightgrey;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .alert-note {
+    padding-top: 0.5rem;
+    color: red;
+    font-size: 12px;
+  }
+
+  .test-creds h6 {
+    font-size: 14px;
+  }
+
+  .test-creds span {
+    font-size: 10px;
+  }
+
+  .credentials-left,
+  .credentials-right {
+    line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 475px) {
+  .galleryButton {
+    position: absolute;
+    top: 80% !important;
+    left: 55% !important;
+    font-size: 12px;
+  }
+
+  .restaurant-name-details {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #192f60;
+  }
+
+  .restaurant-image-container {
+    position: relative;
+    height: 250px;
+  }
+
+  .placeOnlineOrder {
+    border: none;
+    background-color: #ce0505;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    float: right;
+  }
+
+  .nav-tabs {
+    font-size: 16px;
+  }
+
+  .overview-tab-heading {
+    font-size: 16px;
+  }
+  .overview-sub-heading,
+  .contact-sub-heading {
+    font-size: 14px;
+  }
+  .overview-contents,
+  .contact-contents {
+    font-size: 12px;
+  }
+  .modal-restaurant-name {
+    font-size: 16px;
+    padding-left: 0;
+  }
+  .close-button {
+    float: right;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .modal-card-item-name,
+  .modal-card-item-price {
+    font-size: 14px;
+    font-weight: 500;
+    color: #192f60;
+    line-height: 1.5rem;
+    padding-left: 10px;
+  }
+
+  .modal-card-item-desc {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .modal-card-item-image {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 80px;
+  }
+
+  .add-button {
+    /* position: relative; */
+    width: 100%;
+    background-color: #256d13;
+    border: none;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: #efefef;
+    margin: auto;
+    height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .card-body {
+    display: inline-block;
+    width: 45%;
+    padding: 8px;
+  }
+
+  .item-img-section {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .alert-title {
+    color: #273988;
+    background-color: lightgrey;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .alert-note {
+    padding-top: 0.5rem;
+    color: red;
+    font-size: 12px;
+  }
+
+  .test-creds h6 {
+    font-size: 14px;
+  }
+
+  .test-creds span {
+    font-size: 10px;
+  }
+
+  .credentials-left,
+  .credentials-right {
+    line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 475px) and (max-width: 576px) {
+  .galleryButton {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    /* right: 5%; */
+    font-size: 12px;
+  }
+
+  .restaurant-name-details {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #192f60;
+  }
+
+  .restaurant-image-container {
+    position: relative;
+    height: 250px;
+  }
+
+  .placeOnlineOrder {
+    border: none;
+    background-color: #ce0505;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    float: right;
+  }
+
+  .nav-tabs {
+    font-size: 16px;
+  }
+
+  .overview-tab-heading {
+    font-size: 16px;
+  }
+  .overview-sub-heading,
+  .contact-sub-heading {
+    font-size: 14px;
+  }
+  .overview-contents,
+  .contact-contents {
+    font-size: 12px;
+  }
+
+  .modal-restaurant-name {
+    font-size: 18px;
+    padding-left: 0;
+  }
+  .close-button {
+    float: right;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .modal-card-item-name,
+  .modal-card-item-price {
+    font-size: 16px;
+    font-weight: 500;
+    color: #192f60;
+    line-height: 1.5rem;
+    padding-left: 10px;
+  }
+
+  .modal-card-item-desc {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .modal-card-item-image {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 80px;
+  }
+
+  .add-button {
+    /* position: relative; */
+    width: 100%;
+    background-color: #256d13;
+    border: none;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: #efefef;
+    margin: auto;
+    height: 2rem;
+    font-weight: 500;
+  }
+
+  .card-body {
+    display: inline-block;
+    width: 60%;
+    padding: 8px;
+  }
+
+  .item-img-section {
+    display: inline-block;
+    width: 35%;
+  }
+
+  .alert-title {
+    color: #273988;
+    background-color: lightgrey;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .alert-note {
+    padding-top: 0.5rem;
+    color: red;
+    font-size: 12px;
+  }
+
+  .test-creds h6 {
+    font-size: 14px;
+  }
+
+  .test-creds span {
+    font-size: 10px;
+  }
+
+  .credentials-left,
+  .credentials-right {
+    line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .galleryButton {
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    /* right: 5%; */
+    font-size: 14px;
+  }
+
+  .restaurant-name-details {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #192f60;
+  }
+
+  .restaurant-image-container {
+    position: relative;
+    height: 250px;
+  }
+
+  .placeOnlineOrder {
+    border: none;
+    background-color: #ce0505;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    float: right;
+  }
+
+  .nav-tabs {
+    font-size: 20px;
+  }
+
+  .overview-tab-heading {
+    font-size: 18px;
+  }
+  .overview-sub-heading,
+  .contact-sub-heading {
+    font-size: 16px;
+  }
+  .overview-contents,
+  .contact-contents {
+    font-size: 14px;
+  }
+
+  .alert-title {
+    color: #273988;
+    background-color: lightgrey;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .alert-note {
+    padding-top: 0.5rem;
+    color: red;
+    font-size: 14px;
+  }
+
+  .test-creds h6 {
+    font-size: 16px;
+  }
+
+  .test-creds span {
+    font-size: 14px;
+  }
+
+  .credentials-left,
+  .credentials-right {
+    line-height: 1.2;
+  }
+}
